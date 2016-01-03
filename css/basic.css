@@ -1,0 +1,26 @@
+/*我是註釋*/
+/*排版請參考 http://zh-tw.learnlayout.com/ */
+div { /*div裡的元素都會被影響*/
+    width: 500px; /*寬度*/
+    height: 200px; /*高度*/
+    background: gray; /*背景顏色*/
+    color: white; /*字的顏色*/
+}
+div h2 {
+    text-decoration: underline; /*下劃線*/
+}
+div h3 {
+    text-align: center; /*文字置中*/
+}
+div p{ /*只會對div裡的p有效*/
+    font-size: 24px; /*字體大小*/
+    color: pink;
+}
+#spn{
+    border: 2px solid red; /*邊框*/
+    padding-right: 20px; /*內邊距*/
+    margin-left: 20px; /*外邊距*/
+}
+.green {
+    color: green;
+}

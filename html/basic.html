@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>瀏覽器分頁上的標題</title>
+</head>
+<!-- 網頁呈現的內容都寫在body裡 -->
+<body>
+<!-- 放在這裡的是註解，不會在瀏覽器顯示 -->
+<!-- 除了<img>,<br>,<hr>,其他標籤都需以<tagName></tagName>成對顯示 -->
+<h1>h1標題</h1>
+<h2>h2標題&nbsp;&nbsp;前面有2個空格</h2>
+<h3>h3標題, 最小到h6</h3>
+<p>我是一個p段落，<strong>strong被強調的字,</strong><em>em斜體字,我後面放了一個br換行</em><br><span style="color:red;">span標籤沒有語義,單獨設置樣式用</span></p>
+<!-- hr是分行標籤 -->
+<hr>
+<img src="../img/myPic.png">
+<a href="https://github.com/YidaChen">a標籤能連結到外部網站，img,a,<span>span</span>都是inline(行內)元素,所以我們在同一排</a>
+<ul>
+    <li>我是li,放在ul(無序列表)裡</li>
+    <li>我是li,放在ul(無序列表)裡</li>
+    <li>我是li,放在ul(無序列表)裡</li>
+</ul>
+<ol>
+    <li>我是li,放在ol(有序列表)裡</li>
+    <li>我是li,放在ol(有序列表)裡</li>
+    <li>我是li,放在ol(有序列表)裡</li>
+</ol>
+<table border="1">
+    <tr>
+      <th>th</th>
+      <th>th</th>
+      <th>th</th>
+    </tr>
+    <tr>
+      <td>td</td>
+      <td>td</td>
+      <td>td</td>
+    </tr>
+    <tr>
+      <td>td,th</td>
+      <td>放在tr裡</td>
+      <td>tr放在table裡</td>
+    </tr>
+</table>
+<!-- form是表單, 能傳送資料 -->
+<form>
+    <label for="username">用户名:</label>
+    <input type="text" name="username" id="username" value="">
+    <label for="pass">密碼:</label>
+    <input type="password"  name="pass" id="pass" value="">
+    <select>
+        <option>選單1</option>
+        <option>選單2</option>
+    </select>
+    <input type="radio" name="sex" value="male" checked>男
+    <input type="radio" name="sex" value="female">女
+    <input type="submit" value="送出"  name="submit">
+</form>
+</body>
+</html>

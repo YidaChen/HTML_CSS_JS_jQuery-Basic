@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css基礎</title>
+    <link rel="stylesheet" type="text/css" href="basic.css">
+</head>
+
+<body>
+<div>
+<h1>h1</h1>
+<h2>h2, text-decoration: underline;</h2>
+<h3>h3, text-align: center;</h3>
+<p>我是div裡的p, font-size: 24px; color: pink;</p>
+</div>
+<p>我是div外的p <span id="spn">id="spn"的span。border: 2px solid red; padding-right: 20px; margin-left: 20px;</span></p>
+
+<img src="../img/myPic.png">
+<a href="https://github.com/YidaChen">a標籤能連結到外部網站，img,a,<span>span</span>都是inline(行內)元素,所以我們在同一排</a>
+<ul>
+    <li>我是li,放在ul(無序列表)裡</li>
+    <li>我是li,放在ul(無序列表)裡</li>
+    <li>我是li,放在ul(無序列表)裡</li>
+</ul>
+<ol>
+    <li>我是li,放在ol(有序列表)裡</li>
+    <li>我是li,放在ol(有序列表)裡</li>
+    <li>我是li,放在ol(有序列表)裡</li>
+</ol>
+<table border="1">
+    <tr>
+      <th>th</th>
+      <th>th</th>
+      <th>th</th>
+    </tr>
+    <tr>
+      <td>td</td>
+      <td class="green">綠色</td>
+      <td class="green">綠色</td>
+    </tr>
+    <tr>
+      <td>td,th</td>
+      <td>放在tr裡</td>
+      <td>tr放在table裡</td>
+    </tr>
+</table>
+<form>
+    <label for="username">用户名:</label>
+    <input type="text" name="username" id="username" value="">
+    <label for="pass">密碼:</label>
+    <input type="password"  name="pass" id="pass" value="">
+    <select>
+        <option>選單1</option>
+        <option>選單2</option>
+    </select>
+    <input type="radio" name="sex" value="male" checked>男
+    <input type="radio" name="sex" value="female">女
+    <input type="submit" value="送出"  name="submit">
+</form>
+</body>
+</html>
